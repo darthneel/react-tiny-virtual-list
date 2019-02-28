@@ -1,3 +1,4 @@
+
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import SizeAndPositionManager, {ItemSize} from './SizeAndPositionManager';
@@ -297,7 +298,7 @@ export default class VirtualList extends React.PureComponent<Props, State> {
       scrollToAlignment,
       style,
       width,
-      ...props,
+      ...props
     } = this.props;
     const {offset} = this.state;
     const {start, stop} = this.sizeAndPositionManager.getVisibleRange({
